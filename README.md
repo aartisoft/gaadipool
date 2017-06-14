@@ -2,7 +2,7 @@
 
 Change logs
 
-Androdi side:
+Android side:
 1. Replace VehicleRegistration.java inside your package name
 2. Replace content_vehicle_registration.xml file (I have replaced Spinner inplace of Autocomplete)
 3. Replace vehicleRegAPI.java file
