@@ -43,6 +43,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.TreeSet;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 
 import retrofit.Callback;
 import retrofit.RetrofitError;
@@ -51,8 +53,8 @@ import retrofit.client.Response;
 public class Login extends AppCompatActivity implements View.OnClickListener {
     LinearLayout llalreadyotp;
     Button btnlogin,btnskip;
-    String mobileNumber, country="";
-    EditText mPhoneEdit, etmobile;
+    String mobileNumber, country="", email;
+    EditText mPhoneEdit, etmobile ,etemail;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,6 +63,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         initCodes(this);
         mPhoneEdit = (EditText)findViewById(R.id.etphone);
         etmobile = (EditText)findViewById(R.id.etmobile);
+        etemail=(EditText)findViewById(R.id.etemail);
         getSupportActionBar().setTitle(R.string.verify);
         btnlogin=(Button)findViewById(R.id.btnlogin);
         btnskip=(Button)findViewById(R.id.btnskip);
@@ -104,7 +107,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
            send();
         }else if(v.getId()==R.id.llalreadyotp){
             String phone = etmobile.getText().toString().trim();
-
+            email = etemail.getText().toString().trim();
             mLastEnteredPhone = mPhoneEdit.getText().toString().trim();
             if(phone.length()< 5)
             {
@@ -117,8 +120,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             sb.append(mLastEnteredPhone).append(phone);
             mobileNumber = sb.toString().trim();
 
-
-
             hideKeyboard(etmobile);
             etmobile.setError(null);
 
@@ -128,10 +129,25 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                 return;
             }
 
+            if(email ==null || email.length() == 0 || !isEmailValid(email))
+            {
+                etemail.requestFocus();
+                etemail.setError(getString(R.string.label_error_incorrect_Email));
+                return;
+            }
+            if(!isFordEmailValid(email))
+            {
+                System.out.println("Incorrect FORD ID");
+                etemail.requestFocus();
+                etemail.setError(getString(R.string.label_error_incorrect_FORD_Email));
+                return;
+            }
+
             Intent intent = new Intent(Login.this, VarifyOTP.class);
             Log.d("LOGIN"," already otp country:"+country);
             intent.putExtra("phone", mobileNumber);
             intent.putExtra("countrycode", mLastEnteredPhone);
+            intent.putExtra("email", email);
             finish();
             startActivity(intent);
             overridePendingTransition(0, 0);
@@ -146,6 +162,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     public void send()
     {
         String phone = etmobile.getText().toString().trim();
+        email = etemail.getText().toString().trim();
+
         mLastEnteredPhone = mPhoneEdit.getText().toString().trim();
         if(phone.length()< 5)
         {
@@ -163,22 +181,58 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         hideKeyboard(etmobile);
         etmobile.setError(null);
 
+        System.out.println("Email---"+email+"");
+
         if (phone == null) {
             etmobile.requestFocus();
             etmobile.setError(getString(R.string.label_error_incorrect_phone));
             return;
         }
 
-
+        if(email.length() == 0)
+        {
+            etemail.requestFocus();
+            etemail.setError(getString(R.string.label_error_incorrect_Email));
+            return;
+        }
+        if(!isEmailValid(email))
+        {
+            System.out.println("Incorrect ID");
+            etemail.requestFocus();
+            etemail.setError(getString(R.string.label_error_incorrect_Email));
+            return;
+        }
+        if(!isFordEmailValid(email))
+        {
+            System.out.println("Incorrect FORD ID");
+            etemail.requestFocus();
+            etemail.setError(getString(R.string.label_error_incorrect_FORD_Email));
+            return;
+        }
         generateOTP();
-
     }
 
+    public static boolean isEmailValid(String email) {
+        System.out.println("Email---"+email+"");
+        String expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
+        Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(email);
+        return matcher.matches();
+    }
+
+    public static boolean isFordEmailValid (String email) {
+        System.out.println("FEmail---"+email+"");
+        String expression = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@ford.com$";
+        Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(email);
+        return matcher.matches();
+    }
     public void generateOTP() {
         M.showLoadingDialog(Login.this);
         System.out.println("phone---"+mobileNumber+"");
+        System.out.println("email---"+email+"");
         UserAPI mUsersAPI = APIService.createService(UserAPI.class, M.getToken(Login.this));
-        mUsersAPI.generateOTP(mobileNumber, new Callback<ResponseModel>() {
+        mUsersAPI.generateOTP(mobileNumber,email, new Callback<ResponseModel>() {
             @Override
             public void success(ResponseModel success, Response response) {
                 M.L(response.getBody() + "");
@@ -187,6 +241,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                     Intent intent = new Intent(Login.this, VarifyOTP.class);
                     intent.putExtra(getString(R.string.phone), mobileNumber);
                     intent.putExtra(getString(R.string.country), country);
+                    intent.putExtra(getString(R.string.email), email);
                     startActivity(intent);
                     overridePendingTransition(0, 0);
                     finish();
@@ -419,9 +474,9 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                     }
                 }
             }
-            if (!TextUtils.isEmpty(mPhoneEdit.getText())) {
-                return data;
-            }
+            //if (!TextUtils.isEmpty(mPhoneEdit.getText())) {
+              //  return data;
+            //}
             String countryRegion = PhoneUtils.getCountryRegionFromPhone(mContext);
             int code = mPhoneNumberUtil.getCountryCodeForRegion(countryRegion);
 

@@ -67,6 +67,8 @@ public class MyRideAdapter extends BaseAdapter implements View.OnClickListener {
             holder.tvstatus=(TextView)convertView.findViewById(R.id.txtstatus);
             holder.tvlink=(TextView)convertView.findViewById(R.id.txtlink);
             holder.tvroutes=(TextView)convertView.findViewById(R.id.tvroutes);
+            holder.tvsharetype=(TextView)convertView.findViewById(R.id.tvsharetype);
+            holder.tvfreq=(TextView)convertView.findViewById(R.id.tvfreq);
             holder.ivcanel=(TextView)convertView.findViewById(R.id.btncancel);
             convertView.setTag(holder);
         } else {
@@ -93,6 +95,9 @@ public class MyRideAdapter extends BaseAdapter implements View.OnClickListener {
         }
         String route=listData.get(position).getRoute();
         holder.tvroutes.setText(route);
+
+        holder.tvsharetype.setText(listData.get(position).getShareType());
+        holder.tvfreq.setText(listData.get(position).getFreq());
 
         holder.tvsource.setText(listData.get(position).getSource());
         holder.tvdestination.setText(listData.get(position).getDestination());
@@ -164,6 +169,7 @@ public class MyRideAdapter extends BaseAdapter implements View.OnClickListener {
 
     class ViewHolder {
         TextView tvsource,tvdestination,tvdestime,tvrettime,tvseats,tvrate,tvcar,tvstatus,tvlink,tvroutes;
+        TextView tvsharetype, tvfreq;
         TextView ivcanel;
         LinearLayout retlinear;
     }

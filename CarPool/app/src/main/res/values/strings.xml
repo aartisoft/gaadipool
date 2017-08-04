@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Fortin CarPool</string>
+    <string name="app_name">GaaDIPool</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -10,14 +10,16 @@
     <string name="confirm">Confirm</string>
     <string name="signup">Signup Here</string>
     <string name="forgot"><u>Forgot Password</u></string>
-    <string name="verify">Login with Number</string>
+    <string name="verify">Login with Number and Email</string>
     <string name="facebook_app_id">962353660516829</string>
     <string name="alright">Alright</string>
     <string name="cancel">Cancel</string>
-    <string name="otpdetail">We will send you one time password for varification on given Mobile number.</string>
+    <string name="otpdetail">We will send you one time password for verification on given Mobile number and Ford email id.</string>
     <string name="otp">One Time Password (OTP)</string>
+    <string name="smsotp">SMS - One Time Password (OTP)</string>
+    <string name="emailotp">Email - One Time Password (OTP)</string>
     <string name="otpalert">Please enter valid OTP</string>
-    <string name="otpconfirm">We have sent an activation code via SMS to your mobile.</string>
+    <string name="otpconfirm">We have sent an activation code via SMS to your mobile and to your Ford email id.</string>
 
     <string name="ServerError">Please check your internet connection</string>
     <string name="servererror">There is something wrong with server. Please try later!</string>
@@ -28,6 +30,8 @@
     <string name="checkmap"><u>Map Route View</u></string>
 
     <string name="route"><b>Routes : </b></string>
+    <string name="share_type"><b>Share Type: </b></string>
+    <string name="frequency"><b>Frequency: </b></string>
     <string name="ratedesc">(Per Seat)</string>
     <string name="ratekm">(Per km)</string>
     <string name="rate">Rate</string>
@@ -41,6 +45,14 @@
     <string name="diesel">Diesel</string>
     <string name="cng">CNG</string>
     <string name="oneway">One Way</string>
+    <string name="CarSharing">Car Sharing</string>
+    <string name="FuelSharing">Fuel Sharing</string>
+    <string name="FreeRide">Free Ride</string>
+    <string name="CabSharing">Cab Sharing</string>
+    <string name="OneTimeSharing">One Time</string>
+    <string name="WeeklySharing">Weekly</string>
+    <string name="MonthlySharing">Monthly</string>
+    <string name="YearlySharing">Yearly</string>
     <string name="logout">Logout</string>
 
     <string name="title_activity_user_registration">Edit Profile</string>
@@ -64,6 +76,7 @@
     <string name="phone">phone</string>
     <string name="country">country</string>
     <string name="mobile">mobile</string>
+    <string name="email">email</string>
     <string name="model">Model: </string>
     <string name="fbfriends">Facebook Friends:</string>
     <string name="both">both</string>
@@ -101,4 +114,10 @@
     <string name="complete">Yes, Completed</string>
     <string name="cancelled">No, Cancelled</string>
 
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="label_error_incorrect_Email">Incorrect Email</string>
+    <string name="label_error_incorrect_FORD_Email">Incorrect Ford Email</string>
 </resources>

@@ -5,7 +5,9 @@ import com.fortin.carpool.Model.VehiclePojo;
 
 public class AppConst {
     public static final String TAG = "carpool";
-    public static final String url = "http://funtoossh.in/CarPooling/";
+    public static final String url ="http://www.gaadipool.com/";
+    //public static final String url ="http://localhost:8000/";
+    //public static final String url = "http://funtoossh.in/CarPooling/";
     //public static final String url = "http://192.168.0.10/carpool/";
     public static final String MAIN = url+"webservice/";
     public static final String imgurl = url+"upload/";
@@ -13,6 +15,7 @@ public class AppConst {
     public static VehiclePojo selvehicle=null;
     public static String pickupoint=null;
     public static  String droppoint=null;
-    public static final String GOOGLE_PROJ_ID = "853113334974";//confComm
+    //public static final String GOOGLE_PROJ_ID = "853113334974";//confComm
+    public static final String GOOGLE_PROJ_ID = "carpool-e92bf";
     public static String sharetext = "Share your ride with others. You will save environment, money and make new friends... Start download now.";
 }

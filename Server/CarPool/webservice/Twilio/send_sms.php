@@ -3,8 +3,8 @@
 require '../../db.php';
 $mobile_no = $_POST['mobile_no'];
 require('lib/Services/Twilio.php');
-$sid = ""; // Your Account SID from www.twilio.com/user/account
-$token = ""; // Your Auth Token from www.twilio.com/user/account
+$sid = "AC0825885c0969c7dbf7699675a36e519d"; // Your Account SID from www.twilio.com/user/account
+$token = "cd4bad94b1f069937bd7d113bcb3eec6"; // Your Auth Token from www.twilio.com/user/account
 $code = rand(100000, 999999);
 $smstext = "$code Car Pooling App Registration OTP";
 $client = new Services_Twilio($sid, $token);

@@ -32,8 +32,9 @@ public class VarifyOTP extends AppCompatActivity implements View.OnClickListener
 
     ConnectionDetector connectionDetector;
     Button btnvarify;
-    String mobileNumber,country,userid="",TAG="Varify",gcmid="";
-    EditText etotp;
+    String mobileNumber,country,userid="",TAG="Varify",gcmid="",email="";
+    //EditText etotp;
+    EditText etsmsotp, etemailotp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,32 +53,35 @@ public class VarifyOTP extends AppCompatActivity implements View.OnClickListener
 
             mobileNumber = getIntent().getStringExtra(getString(R.string.phone));
             country = getIntent().getStringExtra(getString(R.string.country));
+            email = getIntent().getStringExtra(getString(R.string.email));
             //M.savePreferences(getString(R.string.country), country, VarifyOTP.this);
             System.out.println("111country--" + country);
-            etotp = (EditText) findViewById(R.id.etotp);
+            //etotp = (EditText) findViewById(R.id.etotp);
+            etsmsotp = (EditText) findViewById(R.id.etsmsotp);
+            etemailotp = (EditText) findViewById(R.id.etemailotp);
             btnvarify = (Button) findViewById(R.id.btnvarify);
 
             btnvarify.setOnClickListener(this);
 
-            etotp.addTextChangedListener(new TextWatcher() {
-                @Override
-                public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
-                }
-
-                @Override
-                public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-
-                    if (charSequence.length() == 6) {
-                     //   register();
-                    }
-                }
-
-                @Override
-                public void afterTextChanged(Editable editable) {
-
-                }
-            });
+//            etotp.addTextChangedListener(new TextWatcher() {
+//                @Override
+//                public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+//
+//                }
+//
+//                @Override
+//                public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+//
+//                    if (charSequence.length() == 6) {
+//                        //   register();
+//                    }
+//                }
+//
+//                @Override
+//                public void afterTextChanged(Editable editable) {
+//
+//                }
+//            });
         }
     }
 
@@ -95,11 +99,15 @@ public class VarifyOTP extends AppCompatActivity implements View.OnClickListener
 
     public void register() {
         M.showLoadingDialog(VarifyOTP.this);
-        String verificationcode = etotp.getText().toString();
-        if(verificationcode.length()==6) {
-        Log.d(TAG,"data:"+mobileNumber+" "+verificationcode+" "+country+" "+gcmid);
+        //String verificationcode = etotp.getText().toString();
+
+        String smsVerifyCode = etsmsotp.getText().toString();
+        String emailVerifyCode = etemailotp.getText().toString();
+
+        if(smsVerifyCode.length()==6 && emailVerifyCode.length()==6)  {
+        Log.d(TAG,"data:"+mobileNumber+" "+smsVerifyCode+" "+emailVerifyCode+" "+country+" "+gcmid);
             UserAPI mUsersAPI = APIService.createService(UserAPI.class, M.getToken(VarifyOTP.this));
-            mUsersAPI.register(mobileNumber, verificationcode,country,"android",gcmid, new Callback<UserPojo>() {
+            mUsersAPI.register(mobileNumber, email, smsVerifyCode, emailVerifyCode ,country,"android",gcmid, new Callback<UserPojo>() {
                 @Override
                 public void success(UserPojo userItems, Response response) {
                     if(userItems.getUser_id()!=null && !userItems.getUser_id().isEmpty()) {
@@ -156,7 +164,7 @@ public class VarifyOTP extends AppCompatActivity implements View.OnClickListener
         try
         {
             String otp = message.substring(0, Math.min(message.length(), 6));
-            etotp.setText(otp);
+            etsmsotp.setText(otp);
         }
         catch (Exception e)
         {

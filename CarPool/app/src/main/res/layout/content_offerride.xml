@@ -326,6 +326,127 @@
                     android:textColor="@color/txtcolordark"/>
             </RadioGroup>
 
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Sharing Type:"
+                android:textColor="@color/txtcolordark"
+                android:textSize="@dimen/textview_margin"
+                android:padding="5dp"/>
+
+            <RadioGroup android:id="@+id/rgsharetype"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+                <RadioButton android:id="@+id/rb11"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/CarSharing"
+                    android:checked="true"
+                    android:textColor="@color/txtcolordark"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:textSize="18dp"
+                    android:drawableLeft="@drawable/radiobtn_selector"/>
+
+                <RadioButton android:id="@+id/rb12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/FuelSharing"
+                    android:textColor="@color/txtcolordark"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:textSize="18dp"
+                    android:drawableLeft="@drawable/radiobtn_selector"/>
+
+                <RadioButton android:id="@+id/rb13"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/CabSharing"
+                    android:textColor="@color/txtcolordark"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:textSize="18dp"
+                    android:drawableLeft="@drawable/radiobtn_selector"/>
+
+                <RadioButton android:id="@+id/rb14"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/FreeRide"
+                    android:textColor="@color/txtcolordark"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:textSize="18dp"
+                    android:drawableLeft="@drawable/radiobtn_selector"/>
+
+            </RadioGroup>
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Frequency Type:"
+                android:textColor="@color/txtcolordark"
+                android:textSize="@dimen/textview_margin"
+                android:padding="5dp"
+                />
+
+            <RadioGroup android:id="@+id/rgtripfreq"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton android:id="@+id/rb21"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/OneTimeSharing"
+                    android:checked="true"
+                    android:textColor="@color/txtcolordark"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:textSize="18dp"
+                    android:drawableLeft="@drawable/radiobtn_selector"/>
+
+                <RadioButton android:id="@+id/rb22"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/WeeklySharing"
+                    android:textColor="@color/txtcolordark"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:textSize="18dp"
+                    android:drawableLeft="@drawable/radiobtn_selector"/>
+
+                <RadioButton android:id="@+id/rb23"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/MonthlySharing"
+                    android:textColor="@color/txtcolordark"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:textSize="18dp"
+                    android:drawableLeft="@drawable/radiobtn_selector"/>
+
+                <RadioButton android:id="@+id/rb24"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/YearlySharing"
+                    android:textColor="@color/txtcolordark"
+                    android:button="@null"
+                    android:gravity="center_vertical"
+                    android:textSize="18dp"
+                    android:drawableLeft="@drawable/radiobtn_selector"/>
+            </RadioGroup>
+
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"

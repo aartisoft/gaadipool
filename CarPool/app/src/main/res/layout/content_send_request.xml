@@ -23,7 +23,7 @@
         <TextView android:id="@+id/pick"
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
-            android:text=" Pick Up Point"
+            android:text=" Pick Up Poin t"
             android:textColor="@color/txtcolordark"
             android:textSize="18dp"
             android:padding="3dp"/>

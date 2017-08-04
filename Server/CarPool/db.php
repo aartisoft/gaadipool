@@ -1,9 +1,9 @@
 <?php
-$conn = mysqli_connect('localhost', 'dbusername', 'dbpassword', 'dbname');
+$conn = mysqli_connect('localhost', 'root', 'root', 'carpool');
 
 if (!$conn) {
     die('Could not connect: ' . mysqli_connect_error());
 }
 
-mysqli_select_db($conn,"dbname");
+mysqli_select_db($conn,"carpool");
 ?>

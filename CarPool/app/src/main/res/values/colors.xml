@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorlight">#ef9783</color>
-    <color name="colorPrimary">#f04e25</color>
-    <color name="colorPrimaryDark">#d84621</color>
-    <color name="colorAccent">#f15f3a</color>
+    <color name="colorPrimary">#2b3580</color>
+    <color name="colorPrimaryDark">#143d8d</color>
+    <color name="colorAccent">#23417d</color>
     <color name="colorPrimaryMedium">#f15f3a</color>
-    <color name="colorDark">#d84621</color>
+    <color name="colorDark">#143d8d</color>
     <color name="colorrs">#DD4B39</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
@@ -17,4 +17,7 @@
     <color name="radioselected">#80ef9783</color>
     <color name="linkcolor">#2132be</color>
     <color name="postBg">#E0E0E0</color>
+    <color name="primary_text_default_material_light">#de6f6f6f</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>

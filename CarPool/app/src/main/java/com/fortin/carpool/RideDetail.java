@@ -49,9 +49,11 @@ public class RideDetail extends AppCompatActivity {
     String userid;
     String TAG="RideDetail",vehicleid;
     String trip_userid="",name,depaturetime,route="",seat,profileimg,passengertype="",rate="",source,destination;
+    String shareType="", freq="";
     String smoking,ac,extra;
     ImageView ivprofile,ivwoman,ivvehicle;
     TextView tvname,tvdepature,tvroute,tvseats,tvplace,tvcontact,tvmaplink,tvpasstype,tvrate,tvsource,tvextra,tvfbcnt,tvverify,tvvehicle;
+    TextView tvshartype, tvfreq;
     TextView ivsmoking,ivac;
     Button btnsend,btnfollow;
     Spinner spndrop,spnpick;
@@ -89,6 +91,8 @@ public class RideDetail extends AppCompatActivity {
         tvfbcnt.setVisibility(View.GONE);
         tvdepature=(TextView)findViewById(R.id.tvdtime);
         tvroute=(TextView)findViewById(R.id.tvroute);
+        tvshartype=(TextView)findViewById(R.id.tvsharetype);
+        tvfreq=(TextView)findViewById(R.id.tvfreq);
         tvseats=(TextView)findViewById(R.id.tvseats);
         tvplace=(TextView)findViewById(R.id.tvplace);
         tvcontact=(TextView)findViewById(R.id.tvcontactno);
@@ -143,6 +147,22 @@ public class RideDetail extends AppCompatActivity {
             }
             else
                 tvroute.setText(route);
+
+            shareType=getString(R.string.share_type)+ride.getShareType();
+
+            if(ride.getRoute().length()==0) {
+                tvshartype.setVisibility(View.GONE);
+            }
+            else
+                tvshartype.setText(shareType);
+
+            freq=getString(R.string.frequency)+ride.getFreq();
+
+            if(ride.getRoute().length()==0) {
+                tvfreq.setVisibility(View.GONE);
+            }
+            else
+                tvfreq.setText(freq);
 
             String type=ride.getPassenger_type();
             if (type.equalsIgnoreCase(getString(R.string.both))) {

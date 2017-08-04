@@ -20,9 +20,10 @@ import retrofit.http.POST;
 public interface UserAPI {
 
     @FormUrlEncoded
-    @POST("/Twilio/send_sms.php")
+    @POST("/send_otp.php")
     void generateOTP(
             @Field("mobile_no") String mobile_no,
+            @Field("email") String email,
             Callback<ResponseModel> response);
 
 
@@ -36,7 +37,9 @@ public interface UserAPI {
     @FormUrlEncoded
     @POST("/loginWithSMS.php")
     void register(@Field("mobile_no") String mobile_no,
-                  @Field("otp") String otp,
+                  @Field("email") String email,
+                  @Field("sms_otp") String sms_otp,
+                  @Field("email_otp") String email_otp,
                   @Field("country") String country,
                   @Field("device_type") String device_type,
                   @Field("gcm_id") String gcm_id,

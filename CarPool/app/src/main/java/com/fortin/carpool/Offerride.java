@@ -63,8 +63,8 @@ public class Offerride extends AppCompatActivity implements View.OnClickListener
     Spinner spnvehicle;
     TextView txt,tvsmoke,tvac;
     EditText etdeptime,etreturntime,etseats,ettotseats,etrate,etextra,etdeptdate,etretdate;
-    RadioButton rbtype,rbp,rbpm,rbpf,rbpb,rbt1,rbt2;
-    RadioGroup rgtype,rgpassenger;
+    RadioButton rbtype,rbp,rbpm,rbpf,rbpb,rbt1,rbt2, rbst, rbf;
+    RadioGroup rgtype,rgpassenger, rgtripfreq, rgsharetype;
 
     String TAG="offerride";
 
@@ -72,7 +72,7 @@ public class Offerride extends AppCompatActivity implements View.OnClickListener
     String userid="",vehicleid="";
     String sourcename,sourcelat,sourcelong,destinationname,destlat,destlong;
     String deptdate="",returndate="",deptime="",returntime="",rate="0",extra="";
-    String triptype,passengertype,seats,totseats,srt="";
+    String triptype,passengertype,seats,totseats,freq,shareType;
     String pnm,plat,plong,routetype;
     JSONObject obj=new JSONObject(),routeobj;
 
@@ -134,6 +134,8 @@ public class Offerride extends AppCompatActivity implements View.OnClickListener
         etrate=(EditText)findViewById(R.id.etrate);
         etextra=(EditText)findViewById(R.id.etextra);
         rgtype=(RadioGroup)findViewById(R.id.rgtriptype);
+        rgtripfreq=(RadioGroup)findViewById(R.id.rgtripfreq);
+        rgsharetype=(RadioGroup)findViewById(R.id.rgsharetype);
         rbt1=(RadioButton)findViewById(R.id.rb1);
         rbt2=(RadioButton)findViewById(R.id.rb2);
         rbpm=(RadioButton)findViewById(R.id.rbp1);
@@ -669,6 +671,14 @@ public class Offerride extends AppCompatActivity implements View.OnClickListener
             rbp=(RadioButton)findViewById(selId1);
             passengertype=rbp.getText().toString();
 
+            int selId2=rgsharetype.getCheckedRadioButtonId();
+            rbst=(RadioButton)findViewById(selId2);
+            shareType=rbst.getText().toString();
+
+            int selId3=rgtripfreq.getCheckedRadioButtonId();
+            rbf=(RadioButton)findViewById(selId3);
+            freq=rbf.getText().toString();
+
             if(triptype.equalsIgnoreCase(getString(R.string.oneway))) {
                 returntime = "00:00";
                 returndate="0000-00-00";
@@ -712,7 +722,8 @@ public class Offerride extends AppCompatActivity implements View.OnClickListener
                     ride.put("return_date",returndate);
                     ride.put("return_time",returntime);
                     ride.put("trip_type",triptype);
-                    ride.put("frequency",srt);
+                    ride.put("frequency",freq);
+                    ride.put("share_type",shareType);
                     ride.put("seats",seats);
                     ride.put("passenger_type",passengertype);
                     ride.put("rate",rate);

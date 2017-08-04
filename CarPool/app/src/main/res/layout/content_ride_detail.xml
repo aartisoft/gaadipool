@@ -176,6 +176,35 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:background="@color/dividercolor"/>
+                <TextView android:id="@+id/tvsharetype"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="ShareType"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/txtcolordark"
+                    android:padding="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/dividercolor"/>
+                <TextView android:id="@+id/tvfreq"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:text="Route"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/txtcolordark"
+                    android:padding="10dp"
+                    android:layout_marginLeft="5dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/dividercolor"/>
+
                 <TextView android:id="@+id/tvmaplink"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"

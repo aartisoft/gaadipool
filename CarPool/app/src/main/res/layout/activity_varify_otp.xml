@@ -41,11 +41,10 @@
                     android:padding="8dp"/>
 
 
-
-                <EditText android:id="@+id/etotp"
+                <EditText android:id="@+id/etsmsotp"
                     android:layout_height="wrap_content"
                     android:layout_width="match_parent"
-                    android:hint="@string/otp"
+                    android:hint="@string/smsotp"
                     android:ems="10"
                     android:inputType="number"
                     android:padding="15dp"
@@ -54,16 +53,30 @@
                     android:textColor="@color/white"
                     android:textColorHint="@color/white"/>
 
-
-
-                <Button android:id="@+id/btnvarify"
-                    android:layout_height="@dimen/edittext_height"
+                <EditText
+                    android:id="@+id/etemailotp"
                     android:layout_width="match_parent"
-                    android:text="@string/confirm"
-                    android:background="@drawable/btn"
-                    android:textColor="@color/txtcolor"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimary"
+                    android:drawablePadding="3dp"
                     android:layout_marginTop="15dp"
-                    android:padding="3dp"/>
+                    android:ems="10"
+                    android:hint="@string/emailotp"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+
+
+                <Button
+                    android:id="@+id/btnvarify"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edittext_height"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/btn"
+                    android:padding="3dp"
+                    android:text="@string/confirm"
+                    android:textColor="@color/txtcolor" />
             </LinearLayout>
 
         </LinearLayout>

@@ -7,6 +7,7 @@ public class RidePojo
 {
 String trip_id,vehicle_id,vehicle,vehicleimg,source,source_lat,source_long,destination,dest_lat,dest_long,dep_time,ret_time,trip_type,seats,passenger_type,userid,userimg,trip_status,route,routelat,routelong,rate;
 String smoking,ac,extra;
+    String share_type, freq;
 
     public RidePojo() {
     }
@@ -169,6 +170,18 @@ String smoking,ac,extra;
 
     public void setRoute(String route) {
         this.route = route;
+    }
+
+    public String getShareType() { return share_type; }
+
+    public void setShareType(String shareType) {
+        this.share_type = shareType;
+    }
+
+    public String getFreq() { return freq; }
+
+    public void setFreq(String freq) {
+        this.freq = freq;
     }
 
     public String getRate() {
