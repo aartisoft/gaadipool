@@ -27,3 +27,5 @@
 [31-May-2016 23:36:11 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/funtoxrz/public_html/CarPooling/webservice/checkFollowingRider.php on line 11
 [31-May-2016 23:37:00 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/funtoxrz/public_html/CarPooling/webservice/checkFollowingRider.php on line 11
 [31-May-2016 23:37:24 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/funtoxrz/public_html/CarPooling/webservice/checkFollowingRider.php on line 11
+[21-Jun-2017 04:43:45] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home7/thevaeru/public_html/gaadipool/carpool/webservice/checkFollowingRider.php on line 11
+[21-Jun-2017 07:52:44] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home7/thevaeru/public_html/gaadipool/carpool/webservice/checkFollowingRider.php on line 11

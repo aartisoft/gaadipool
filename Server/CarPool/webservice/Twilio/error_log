@@ -144,3 +144,177 @@ Stack trace:
 [24-Jan-2016 15:49:23 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
 [24-Jan-2016 21:02:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo.so: cannot open shared object file: No such file or directory in Unknown on line 0
 [24-Jan-2016 21:02:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20100525/pdo_mysql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[21-Jun-2017 05:44:57] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:44:57] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:45:01] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:45:02] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:48:51] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:48:52] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:53:48] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:53:49] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:53:53] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:53:53] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:56:34] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 05:56:35] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 06:02:00] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 06:02:00] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 06:02:03] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 06:02:03] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 06:03:14] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 06:03:15] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_CONSTANT_ENCAPSED_STRING or '(' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/test_sms.php on line 18
+[21-Jun-2017 11:32:24] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'Services/Twilio.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php on line 4
+[21-Jun-2017 11:32:25] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'Services/Twilio.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php on line 4
+[21-Jun-2017 11:32:28] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'Services/Twilio.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php on line 4
+[21-Jun-2017 11:32:28] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'Services/Twilio.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php on line 4
+[21-Jun-2017 11:35:56] PHP Fatal error:  Call to a member function sendMessage() on a non-object in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php on line 15
+[21-Jun-2017 11:35:57] PHP Fatal error:  Call to a member function sendMessage() on a non-object in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php on line 15
+[21-Jun-2017 11:37:41] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(21): Services_Twilio_Rest_Messages->sendMessage('+12143909549', NULL, '990990 GaaDIPoo...')
+#5 {main}
+  thrown in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 11:37:41] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(21): Services_Twilio_Rest_Messages->sendMessage('+12143909549', NULL, '990990 GaaDIPoo...')
+#5 {main}
+  thrown in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 11:37:46] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(21): Services_Twilio_Rest_Messages->sendMessage('+12143909549', NULL, '990990 GaaDIPoo...')
+#5 {main}
+  thrown in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 11:37:47] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(21): Services_Twilio_Rest_Messages->sendMessage('+12143909549', NULL, '990990 GaaDIPoo...')
+#5 {main}
+  thrown in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 11:40:08] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +9199884034267 is unverified. Trial accounts cannot send messages to unverified numbers; verify +9199884034267 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages- in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 11:40:18] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +9199884034267 is unverified. Trial accounts cannot send messages to unverified numbers; verify +9199884034267 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages- in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 11:40:41] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +9199884034267 is unverified. Trial accounts cannot send messages to unverified numbers; verify +9199884034267 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages- in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 11:41:44] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +9199884034267 is unverified. Trial accounts cannot send messages to unverified numbers; verify +9199884034267 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages- in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 11:44:58] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(24): Services_Twilio_Rest_Messages->sendMessage('+12143909549', NULL, '990990 GaaDIPoo...')
+#5 {main}
+  thrown in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 11:45:02] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(24): Services_Twilio_Rest_Messages->sendMessage('+12143909549', NULL, '990990 GaaDIPoo...')
+#5 {main}
+  thrown in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 15:56:45] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +919962318885 is unverified. Trial accounts cannot send messages to unverified numbers; verify +919962318885 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->c in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 15:57:52] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +919962318885 is unverified. Trial accounts cannot send messages to unverified numbers; verify +919962318885 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->c in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 15:58:24] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +919962318885 is unverified. Trial accounts cannot send messages to unverified numbers; verify +919962318885 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->c in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 15:58:51] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +919962318885 is unverified. Trial accounts cannot send messages to unverified numbers; verify +919962318885 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->c in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 16:00:13] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +919962318885 is unverified. Trial accounts cannot send messages to unverified numbers; verify +919962318885 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->c in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[22-Jun-2017 03:38:26] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The number +919884921721 is unverified. Trial accounts cannot send messages to unverified numbers; verify +919884921721 at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->c in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[22-Jun-2017 04:13:23] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Authentication Error - invalid username' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(26): Services_Twilio_Rest_Messages->sendMessage('+13132142525', '+919884034267', '524465 GaaDIPoo...')
+#5  in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[22-Jun-2017 04:17:11] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +919884034267.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(26): Services_Twilio_Rest_Messages->sen in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[22-Jun-2017 04:17:16] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +919884034267.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(26): Services_Twilio_Rest_Messages->sen in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[22-Jun-2017 04:17:21] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +919884034267.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(26): Services_Twilio_Rest_Messages->sen in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[23-Jun-2017 02:54:32] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +939884496566 is not a valid phone number.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/send_sms.php(26): Services_Twilio_Rest_Messages->sendMessage('+13132142525', '+939884496566', 'GaaDI in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297

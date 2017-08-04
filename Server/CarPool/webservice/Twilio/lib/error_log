@@ -1,0 +1,35 @@
+[21-Jun-2017 06:10:36] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +919941378688.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/test_sms.php(48): Services_Twilio_Rest_Messages- in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 06:10:38] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +919941378688.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/test_sms.php(48): Services_Twilio_Rest_Messages- in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 06:10:43] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +919941378688.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/test_sms.php(48): Services_Twilio_Rest_Messages- in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 06:10:44] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +919941378688.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/test_sms.php(48): Services_Twilio_Rest_Messages- in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297
+[21-Jun-2017 06:27:13] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'Permission to send an SMS has not been enabled for the region indicated by the 'To' number: +919884034267.' in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php:297
+Stack trace:
+#0 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php(180): Base_Services_Twilio->_processResponse(Array)
+#1 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/ListResource.php(92): Base_Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio/Rest/Messages.php(71): Services_Twilio_Rest_Messages->create(Array)
+#4 /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/test_sms.php(48): Services_Twilio_Rest_Messages- in /home7/thevaeru/public_html/gaadipool/carpool/webservice/Twilio/lib/Services/Twilio.php on line 297

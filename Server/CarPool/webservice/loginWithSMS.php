@@ -1,6 +1,7 @@
 <?php
 
 $mobile_no = $_POST['mobile_no'];
+$email = $_POST['email'];
 $otp = $_POST['otp'];
 $country = $_POST['country'];
 $devicetype = $_POST['device_type'];
@@ -23,8 +24,8 @@ if (mysqli_num_rows($result_otp) > 0) {
         $row['userstatus'] = 'olduser';
         echo json_encode($row);
     } else {
-        $query = "insert into tbl_users(user_mobile,user_country,isverified)" .
-                "values('$mobile_no','$country','No')";
+        $query = "insert into tbl_users(user_mobile,user_email,user_country,isverified)" .
+                "values('$mobile_no','$email','$country','No')";
         $result = mysqli_query($conn, $query);
 
         if ($result == 1) {

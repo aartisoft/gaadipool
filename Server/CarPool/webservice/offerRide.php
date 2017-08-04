@@ -11,8 +11,8 @@ $slong='';
 $dest='';
 $dlat='';
 $dlong='';
-$query = "insert into tbl_trips(trip_vehicle_id,source,source_lat,source_long,destination,destination_lat,destination_long,depature_date,trip_depature_time,return_date,trip_return_time,trip_type,trip_frequncy,trip_avilable_seat,passenger_type,trip_rate_details,trip_user_id,trip_status,ac,smoking,extra) " .
-        "values('$routedata->vehicle_id','$routedata->source','$routedata->source_lat','$routedata->source_long','$routedata->destination','$routedata->dest_lat','$routedata->dest_long','$routedata->depature_date','$routedata->depature_time','$routedata->return_date','$routedata->return_time','$routedata->trip_type','$routedata->frequency','$routedata->seats','$routedata->passenger_type','$routedata->rate','$routedata->user_id','CREATED','$routedata->ac','$routedata->smoking','$routedata->extra')";
+$query = "insert into tbl_trips(trip_vehicle_id,source,source_lat,source_long,destination,destination_lat,destination_long,depature_date,trip_depature_time,return_date,trip_return_time,trip_type,trip_frequncy,trip_avilable_seat,passenger_type,trip_rate_details,trip_user_id,trip_status,ac,smoking,extra,share_type) " .
+        "values('$routedata->vehicle_id','$routedata->source','$routedata->source_lat','$routedata->source_long','$routedata->destination','$routedata->dest_lat','$routedata->dest_long','$routedata->depature_date','$routedata->depature_time','$routedata->return_date','$routedata->return_time','$routedata->trip_type','$routedata->frequency','$routedata->seats','$routedata->passenger_type','$routedata->rate','$routedata->user_id','CREATED','$routedata->ac','$routedata->smoking','$routedata->extra','$routedata->share_type')";
 
 $result = mysqli_query($conn, $query);
 $trip_id = mysqli_insert_id($conn);

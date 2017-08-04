@@ -18,6 +18,8 @@ if (mysqli_num_rows($result)) {
         $ride['vehicle'] = $row['model'] . '-' . $row['car_name'] . '(' . $row['vehicle_type'] . ')';
         $ride['vehicleimg'] = $row['vehicle_image'];
         $ride['trip_type'] = $row['trip_type'];
+        $ride['share_type'] = $row['share_type'];
+        $ride['freq'] = $row['trip_frequncy'];
         $ride['seats'] = $row['trip_avilable_seat'];
         $ride['passenger_type'] = $row['passenger_type'];
         $ride['userid'] = $row['trip_user_id'];
